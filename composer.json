@@ -13,6 +13,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
+		"yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "noumo/easyii": "dev-master"
@@ -27,6 +28,11 @@
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
-        }
+        },
+	    "writable": [
+            "assets",
+            "uploads",
+            "runtime"
+        ]
     }
 }
