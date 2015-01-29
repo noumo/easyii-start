@@ -30,6 +30,7 @@ $this->registerCss('
         font-weight: 300;
         text-transform: uppercase;
         margin-bottom: 50px;
+        color: #555;
     }
     h1 a{
         display: inline-block;
@@ -44,7 +45,7 @@ $this->registerCss('
     .circle {
         display: inline-block;
         border-radius: 50%;
-        border: 2px solid #222;
+        border: 2px solid #555;
         width: 180px;
         height: 180px;
         margin-left:auto;
@@ -53,7 +54,7 @@ $this->registerCss('
         padding-top: 45px;
         margin: 0 40px;
         font-size: 18px;
-        color: #222;
+        color: #555;
     }
     .circle:hover, .circle:focus{
         text-decoration: none;
