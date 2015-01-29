@@ -2,10 +2,10 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=noumo_easyiicms',
-    'username' => 'noumo_easyiicms',
-    'password' => '5&XoLooV',
+    'dsn' => 'mysql:host=localhost;dbname=DB_NAME',
+    'username' => 'DB_USERNAME',
+    'password' => 'DB_PASSWORD',
     'charset' => 'utf8',
     'tablePrefix' => '',
-    //'enableSchemaCache' => true,
+    'enableSchemaCache' => true,
 ];
