@@ -7,6 +7,8 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'language' => 'en-US',
+    'runtimePath' => $_SERVER['DOCUMENT_ROOT'] . '/runtime',
+    'vendorPath' => $_SERVER['DOCUMENT_ROOT'] . '/vendor',
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
@@ -14,10 +16,6 @@ $config = [
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
-        ],
-        'urlManager' => [
-            'rules' => [
-            ],
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
@@ -65,4 +63,4 @@ if (YII_ENV_DEV) {
     $config['components']['db']['enableSchemaCache'] = false;
 }
 
-return array_merge_recursive($config, require(dirname(__DIR__) . '/vendor/noumo/easyii/config/easyii.php'));
+return array_merge_recursive($config, require($_SERVER['DOCUMENT_ROOT'] . '/vendor/noumo/easyii/config/easyii.php'));

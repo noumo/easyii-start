@@ -24,7 +24,7 @@
     "extra": {
         "yii\\composer\\Installer::postCreateProject": {
             "generateCookieValidationKey": [
-                "config/web.php"
+                "app/config/web.php"
             ]
         },
         "asset-installer-paths": {
