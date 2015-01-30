@@ -6,7 +6,7 @@ $this->title = 'EasyiiCMS start page';
 <div class="container vertical-align-parent">
     <div class="col-md-10 col-md-offset-1 vertical-align-child text-center">
         <h1>Welcome to <a href="http://easyiicms.com" target="_blank">EasyiiCMS</a> start page</h1>
-        <?php if(!Yii::$app->getModule('admin')->installed()) : ?>
+        <?php if(!Yii::$app->getModule('admin')->installed) : ?>
         <a class="circle" href="/admin/install">
                 <i class="glyphicon glyphicon-save"></i>
                 <br>
