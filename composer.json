@@ -23,6 +23,13 @@
     },
     "extra": {
         "yii\\composer\\Installer::postCreateProject": {
+            "setPermission": [
+                {
+                    "runtime": "0777",
+                    "assets": "0777",
+                    "yii": "0755"
+                }
+            ],
             "generateCookieValidationKey": [
                 "app/config/main.php"
             ]
