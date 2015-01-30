@@ -1,6 +1,4 @@
 <?php
-\app\assets\AppAsset::register($this);
-
 $this->title = 'EasyiiCMS start page';
 ?>
 <div class="container vertical-align-parent">
