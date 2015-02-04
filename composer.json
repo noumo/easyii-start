@@ -3,8 +3,8 @@
     "description": "Easy CMS based on Yii2 Framework",
     "keywords": ["yii2", "cms", "control panel", "admin", "easy"],
     "homepage": "http://easyiicms.com",
-    "type": "cms",
-    "license": "BSD-3-Clause",
+    "type": "project",
+    "license": "GNU GPL V3",
     "support": {
         "wiki": "http://easyiicms.com/docs",
         "source": "https://github.com/noumo/easyii.git",
