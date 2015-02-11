@@ -9,6 +9,7 @@ Direcotry Structure
 app/                main application folder
     assets/         contains assets definition
     config/         contains application configurations
+    commands/       contains Console controller classes
     controllers/    contains Web controller classes
     media/          contains css, images and js scripts
     views/          contains application configurations
