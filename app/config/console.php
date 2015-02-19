@@ -2,9 +2,14 @@
 $params = require(__DIR__ . '/params.php');
 $db = require(__DIR__ . '/db.php');
 
+$basePath =  dirname(__DIR__);
+$webroot = dirname($basePath);
+
 return [
     'id' => 'app-console',
-    'basePath' => dirname(__DIR__),
+    'basePath' => $basePath,
+    'runtimePath' => $webroot . '/runtime',
+    'vendorPath' => $webroot . '/vendor',
     'bootstrap' => ['log', 'gii'],
     'controllerNamespace' => 'app\commands',
     'modules' => [

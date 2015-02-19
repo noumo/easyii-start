@@ -2,13 +2,16 @@
 
 $params = require(__DIR__ . '/params.php');
 
+$basePath =  dirname(__DIR__);
+$webroot = dirname($basePath);
+
 $config = [
     'id' => 'app',
-    'basePath' => dirname(__DIR__),
+    'basePath' => $basePath,
     'bootstrap' => ['log'],
     'language' => 'en-US',
-    'runtimePath' => $_SERVER['DOCUMENT_ROOT'] . '/runtime',
-    'vendorPath' => $_SERVER['DOCUMENT_ROOT'] . '/vendor',
+    'runtimePath' => $webroot . '/runtime',
+    'vendorPath' => $webroot . '/vendor',
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
