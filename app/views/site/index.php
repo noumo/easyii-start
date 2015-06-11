@@ -29,7 +29,7 @@ $this->title = 'EasyiiCMS start page';
             <br>
             Documentation
         </a>
-        <a class="circle" href="http://demo.easyiicms.com" target="_blank">
+        <a class="circle" href="http://easyiicms.com/demo" target="_blank">
             <i class="glyphicon glyphicon-globe"></i>
             <br>
             Demo website
