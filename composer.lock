@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "bc7bbb4ea24cf8f25022bf808a097376",
+    "content-hash": "0f52a2351f5ec217aae22a314c1c150d",
     "packages": [
         {
             "name": "2amigos/yii2-selectize-widget",
@@ -206,7 +207,8 @@
                     "fancybox.jquery.json",
                     "demo"
                 ]
-            }
+            },
+            "time": "2015-10-06 14:47:06"
         },
         {
             "name": "bower-asset/jquery",
@@ -281,7 +283,8 @@
                     "Gruntfile.js",
                     "test"
                 ]
-            }
+            },
+            "time": "2014-09-06 14:29:29"
         },
         {
             "name": "bower-asset/jquery.inputmask",
@@ -378,7 +381,8 @@
                 "input",
                 "switch",
                 "switcher"
-            ]
+            ],
+            "time": "2014-11-04 05:50:52"
         },
         {
             "name": "bower-asset/microplugin",
@@ -453,7 +457,8 @@
                     "package.js",
                     "package.json"
                 ]
-            }
+            },
+            "time": "2015-07-28 04:39:50"
         },
         {
             "name": "bower-asset/punycode",
@@ -622,7 +627,8 @@
             },
             "license": [
                 "MIT"
-            ]
+            ],
+            "time": "2015-12-05 12:06:24"
         },
         {
             "name": "cebe/markdown",
@@ -819,21 +825,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boehsermoe/easyii.git",
-                "reference": "b189be58cdb9c2416943321a1d301389524ddddd"
+                "reference": "ecb674bbefe6ab2015371118706258f8e78f6ac2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boehsermoe/easyii/zipball/b189be58cdb9c2416943321a1d301389524ddddd",
-                "reference": "b189be58cdb9c2416943321a1d301389524ddddd",
+                "url": "https://api.github.com/repos/boehsermoe/easyii/zipball/ecb674bbefe6ab2015371118706258f8e78f6ac2",
+                "reference": "ecb674bbefe6ab2015371118706258f8e78f6ac2",
                 "shasum": ""
             },
             "require": {
                 "2amigos/yii2-selectize-widget": "~1.0",
-                "bower-asset/eonasdan-bootstrap-datetimepicker": "4.7.*",
+                "bower-asset/eonasdan-bootstrap-datetimepicker": "4.7.14",
                 "bower-asset/fancybox": "*",
                 "bower-asset/jquery.switcher": "*",
                 "creocoder/yii2-nested-sets": "0.9.*",
-                "google/apiclient": "1.0.*@beta",
+                "google/apiclient": "1.0.*",
                 "php": ">=5.4.0",
                 "stojg/crop": "*",
                 "vova07/yii2-imperavi-widget": "*",
@@ -873,7 +879,7 @@
                 "source": "https://github.com/noumo/easyii.git",
                 "issues": "https://github.com/noumo/easyii/issues"
             },
-            "time": "2015-12-12 07:46:21"
+            "time": "2015-12-15 18:41:29"
         },
         {
             "name": "stojg/crop",
@@ -1046,7 +1052,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/c177f2137fdfa19221ff04ba1e8261d63a754e42",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/1077aadbf2d978dc257d498c7ccff62b391ffe33",
                 "reference": "c177f2137fdfa19221ff04ba1e8261d63a754e42",
                 "shasum": ""
             },
@@ -1140,7 +1146,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/e7b4df436f09ca00f44615928909fa9cc2a78ae7",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/d841fe6f4767d2fdc24ebe91cc95a61b3465fd8f",
                 "reference": "e7b4df436f09ca00f44615928909fa9cc2a78ae7",
                 "shasum": ""
             },
@@ -1310,7 +1316,8 @@
                     "package.json"
                 ]
             },
-            "description": "Parse and display moments in any timezone."
+            "description": "Parse and display moments in any timezone.",
+            "time": "2015-10-08 02:06:51"
         },
         {
             "name": "bower-asset/typeahead.js",
@@ -1478,7 +1485,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/150efc56f56bd58ca8d1aae195b2f11223cf8b40",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/4d6056e3ec68d3db21e9a1878e5dcb7f418b1aaa",
                 "reference": "150efc56f56bd58ca8d1aae195b2f11223cf8b40",
                 "shasum": ""
             },
@@ -1572,7 +1579,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/2c1db8efa40b8bfa6f2f95b9c57033f271d85c3d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/b94ed4fbb2afc9a8f165ee3cfef3e8df597d39e7",
                 "reference": "2c1db8efa40b8bfa6f2f95b9c57033f271d85c3d",
                 "shasum": ""
             },
