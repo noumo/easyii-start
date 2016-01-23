@@ -41,11 +41,5 @@
             "uploads",
             "runtime"
         ]
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:boehsermoe/easyii.git"
-        }
-    ]
+    }
 }
