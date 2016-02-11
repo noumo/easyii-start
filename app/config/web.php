@@ -1,9 +1,10 @@
 <?php
 
-$params = require(__DIR__ . '/params.php');
-
 $basePath =  dirname(__DIR__);
 $webroot = dirname($basePath);
+
+require(__DIR__ . '/aliases.php');
+$params = require(__DIR__ . '/params.php');
 
 $config = [
     'id' => 'app',

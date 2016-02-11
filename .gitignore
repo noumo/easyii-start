@@ -1,3 +1,5 @@
 .idea
-
+/runtime
+/assets
 Thumbs.db
+/vendor
